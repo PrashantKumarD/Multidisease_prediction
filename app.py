@@ -17,19 +17,19 @@ working_dir = os.path.dirname(os.path.abspath(__file__))
 path0 = f'{working_dir}/saved_model/scaler_diab.sav'
 scaler_f = pickle.load(open(path0,'rb')) 
 
-path_1 = 'C:/Users/kumar/OneDrive/Desktop/multiple disease prediction system/saved_model/trained_model.sav'
+path_1 = f'{working_dir}/Users/kumar/OneDrive/Desktop/multiple disease prediction system/saved_model/trained_model.sav'
 diabetes_model = pickle.load(open(path_1,'rb'))
 
-path_2 = 'C:/Users/kumar/OneDrive/Desktop/multiple disease prediction system/saved_model/heart_disease_1.sav'
+path_2 = f'{working_dir}/Users/kumar/OneDrive/Desktop/multiple disease prediction system/saved_model/heart_disease_1.sav'
 heart_model = pickle.load(open(path_2,'rb'))
 
-path_3 = 'C:/Users/kumar/OneDrive/Desktop/multiple disease prediction system/saved_model/parkinson_disease.sav'
+path_3 = f'{working_dir}/Users/kumar/OneDrive/Desktop/multiple disease prediction system/saved_model/parkinson_disease.sav'
 parkinson_model = pickle.load(open(path_3,'rb'))
 
-path_4 = 'C:/Users/kumar/OneDrive/Desktop/multiple disease prediction system/saved_model/scaler_heart_1.sav'
+path_4 = f'{working_dir}/Users/kumar/OneDrive/Desktop/multiple disease prediction system/saved_model/scaler_heart_1.sav'
 scaler_heart = pickle.load(open(path_4,'rb'))
 
-path_5 = 'C:/Users/kumar/OneDrive/Desktop/multiple disease prediction system/saved_model/scaler_parkinson.sav'
+path_5 = f'{working_dir}/Users/kumar/OneDrive/Desktop/multiple disease prediction system/saved_model/scaler_parkinson.sav'
 scaler_park = pickle.load(open(path_5,'rb'))
 
 # sidebar for showing / choosing option 
