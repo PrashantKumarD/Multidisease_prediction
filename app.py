@@ -12,7 +12,7 @@ import streamlit as st
 from streamlit_option_menu import option_menu
 
 # loading saved model 
-path0 = 'C:/Users/kumar/OneDrive/Desktop/multiple disease prediction system/saved_model/scaler_diab.sav'
+path0 = r"C:/Users/kumar/OneDrive/Desktop/multiple disease prediction system/saved_model/scaler_diab.sav"
 scaler_f = pickle.load(open(path0,'rb')) 
 
 path_1 = 'C:/Users/kumar/OneDrive/Desktop/multiple disease prediction system/saved_model/trained_model.sav'
